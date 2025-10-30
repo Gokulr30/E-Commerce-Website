@@ -1,0 +1,6 @@
+Copy this to .env and adjust as needed
+
+MONGO_URI=mongodb://localhost:27017/mock_ecom
+PORT=4000
+
+

@@ -1,14 +1,30 @@
-Frontend (React + Vite)
+# Frontend - E-Commerce Website
 
-Scripts
+This directory contains the React frontend for the E-Commerce Website.
 
-- `npm run dev` — start Vite dev server
-- `npm run build` — production build
-- `npm run preview` — preview build
+---
 
-Env
+## Overview
 
-- Copy `ENV_EXAMPLE.txt` to `.env` if you want to override backend base URL.
-- `VITE_API_BASE=http://localhost:4000`
+- Built with **React** and **Vite**
+- Connects to backend via RESTful APIs
+- Features include product grid, cart management, checkout, and order receipt
+
+## Main Files
+
+- `App.jsx` - Main React app entry
+- `main.jsx` - App bootstrapping
+- `api.js` - API logic for server communication
+- `context/CartContext.jsx` - Context provider for managing cart state globally
+- `components/` - UI components for cart, checkout, product display, and receipt
+- `styles.css` - App styling
+
+## Setup
+
+1. Copy `ENV_EXAMPLE.txt` to `.env` and set configuration as needed.
+2. Run `npm install` to install dependencies.
+3. Start the frontend dev server with `npm run dev`.
+
+See the main [README.md](../README.md) for full project setup and usage.
 
 

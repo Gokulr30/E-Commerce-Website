@@ -147,7 +147,7 @@ This project is licensed under the MIT License.
 
 ## 🙏 Credits
 
-Created by [Your Name / Team].  
+Created by Gokul.  
 Inspired by modern e-commerce platforms for educational purposes.
 
 
